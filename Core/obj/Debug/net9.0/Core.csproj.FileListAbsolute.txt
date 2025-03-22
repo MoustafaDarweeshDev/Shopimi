@@ -9,3 +9,15 @@ D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2
 D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\Shopimi\Core\obj\Debug\net9.0\refint\Core.dll
 D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\Shopimi\Core\obj\Debug\net9.0\Core.pdb
 D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\Shopimi\Core\obj\Debug\net9.0\ref\Core.dll
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\bin\Debug\net9.0\Core.deps.json
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\bin\Debug\net9.0\Core.dll
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\bin\Debug\net9.0\Core.pdb
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.AssemblyInfoInputs.cache
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.AssemblyInfo.cs
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.csproj.CoreCompileInputs.cache
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.sourcelink.json
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.dll
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\refint\Core.dll
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\Core.pdb
+D:\Courses\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\clone\Shopimi\Core\obj\Debug\net9.0\ref\Core.dll

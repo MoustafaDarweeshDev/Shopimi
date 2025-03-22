@@ -4732,11 +4732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\Shopimi\\Infrastructer\\Infrastructer.csproj",
+      "projectUniqueName": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\clone\\Shopimi\\Infrastructer\\Infrastructer.csproj",
       "projectName": "Infrastructer",
-      "projectPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\Shopimi\\Infrastructer\\Infrastructer.csproj",
+      "projectPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\clone\\Shopimi\\Infrastructer\\Infrastructer.csproj",
       "packagesPath": "C:\\Users\\Moustafa Darweesh\\.nuget\\packages\\",
-      "outputPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\Shopimi\\Infrastructer\\obj\\",
+      "outputPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\clone\\Shopimi\\Infrastructer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4757,8 +4757,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\Shopimi\\Core\\Core.csproj": {
-              "projectPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\Shopimi\\Core\\Core.csproj"
+            "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\clone\\Shopimi\\Core\\Core.csproj": {
+              "projectPath": "D:\\Courses\\Udemy - Learn to build an e-commerce app with .Net Core and Angular 2024-8\\clone\\Shopimi\\Core\\Core.csproj"
             }
           }
         }
