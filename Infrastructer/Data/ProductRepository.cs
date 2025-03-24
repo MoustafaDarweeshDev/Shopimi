@@ -30,7 +30,7 @@ namespace Infrastructer.Data
 
         public async Task<Product?> GetProductAsync(int id)
         {
-            return await context.FindAsync<Product?>(id);
+            return await context.FindAsync<Product>(id);
         }
 
         public async Task<IReadOnlyList<Product>> GetProductsAsync(string? brand, string? type)
