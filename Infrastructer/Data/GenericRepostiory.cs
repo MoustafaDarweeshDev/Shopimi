@@ -26,6 +26,13 @@ namespace Infrastructer.Data
             return await context.Set<T>().FirstOrDefaultAsync(x => x.Id == id);
         }
 
+        public async Task<int> GetCountAsync(ISpecification<T> spec)
+        {
+            var query = context.Set<T>().AsQueryable();
+            query = spec.ApplyCriteria(query);
+            return await query.CountAsync();
+        }
+
         public async Task<T?> GetEntitiyWithSpec(ISpecification<T> spec)
         {
             return await ApplySpecification(spec).FirstOrDefaultAsync();

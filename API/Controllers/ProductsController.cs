@@ -1,4 +1,5 @@
-﻿using Core.Entities;
+﻿using API.RequestHelpers;
+using Core.Entities;
 using Core.Interfaces;
 using Core.Specification;
 using Infrastructer.Data;
@@ -7,19 +8,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController(IGenericRepostiory<Product> repo) : ControllerBase
+    public class ProductsController(IGenericRepostiory<Product> repo) : BaseController
     {
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, string? type, string? sort)
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery]ProductSpecParams specParamas)
         {
-            var spec = new ProductSpecification(brand, type, sort);
+            var spec = new ProductSpecification(specParamas);
 
-            var products = await repo.ListAllWithSpec(spec);
-
-            return Ok(products);
-
+            return Ok(await CreatedPagedResault(repo, spec, specParamas.PageIndex, specParamas.PageSize));
         }
 
         [HttpGet("{id:int}")]
