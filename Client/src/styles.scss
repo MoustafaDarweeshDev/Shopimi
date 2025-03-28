@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mdc-button,
+.mdc-stroked-button,
+.mdc-flat-button,
+.raised-button {
+  border-radius: 0.375rem !important; /* Equivalent to rounded-md */
+}
+
+.container {
+  @apply mx-auto max-w-screen-2xl
+}
