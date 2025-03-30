@@ -10,7 +10,7 @@ namespace Core.Specification
     {
         private const int MaxPageSize = 50;
         private int _pageSize = 6;
-        public int PageIndex = 1;
+        public int PageIndex { get; set; } = 1;
         public int PageSize 
         {
             get => _pageSize;
