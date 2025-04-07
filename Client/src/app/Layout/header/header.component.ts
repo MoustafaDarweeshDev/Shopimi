@@ -5,6 +5,7 @@ import {MatButton} from '@angular/material/button';
 import {MatProgressBar} from '@angular/material/progress-bar';
 import { RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
 import { BusyService } from '../../Core/Services/busy.service';
+import { CartService } from '../../Core/Services/cart.service';
 
 @Component({
   selector: 'app-header',
@@ -23,9 +24,6 @@ import { BusyService } from '../../Core/Services/busy.service';
 })
 export class HeaderComponent{
   busyService = inject(BusyService);
+  cartService = inject(CartService);
 
-  constructor(){
-    console.log('from inter ',this.busyService.loading);
-
-  }
 }
