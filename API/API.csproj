@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Infrastructer\Infrastructer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>
