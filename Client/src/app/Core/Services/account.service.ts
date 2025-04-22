@@ -23,12 +23,12 @@ export class AccountService {
   }
 
   getUserInfo() {
-    return this.http.get<User>(this.baseUrl + 'account/user-info').pipe(
+    return this.http.get<User>(this.baseUrl + 'account/user-info', { withCredentials: true }).pipe(
       map(user => {
         this.currentUser.set(user);
         return user;
       })
-    )
+    );
   }
 
   logout(){
@@ -38,4 +38,9 @@ export class AccountService {
   updateAddress(address:Address){
     return this.http.post(this.baseUrl + 'account/address' , address)
   }
+
+  getAuthState() {
+    return this.http.get<{isAuthenticated: boolean}>(this.baseUrl + 'account/auth-status',{ withCredentials:true })
+  }
+
 }
