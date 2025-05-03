@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructer.Data
 {
-    public class GenericRepostiory<T>(StoreContext context) : IGenericRepostiory<T> where T : BaseEntity
+    public class GenericRepostiory<T>(StoreContext context) : IGenericRepository<T> where T : BaseEntity
     {
         public void Add(T entity)
         {

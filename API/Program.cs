@@ -20,7 +20,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped(typeof(IGenericRepostiory<>), typeof(GenericRepostiory<>));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepostiory<>));
 builder.Services.AddCors();
 builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
 {
@@ -35,6 +35,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddIdentityApiEndpoints<AppUser>()
     .AddEntityFrameworkStores<StoreContext>();
 
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

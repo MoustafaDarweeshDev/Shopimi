@@ -9,7 +9,7 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class BaseController : ControllerBase
     {
-        protected async Task<ActionResult> CreatedPagedResault<T>(IGenericRepostiory<T> repo, ISpecification<T> spec, int pageIndex, int pageSize) where T : BaseEntity
+        protected async Task<ActionResult> CreatedPagedResault<T>(IGenericRepository<T> repo, ISpecification<T> spec, int pageIndex, int pageSize) where T : BaseEntity
         {
             var data = await repo.ListAllWithSpec(spec);
             var count = await repo.GetCountAsync(spec);

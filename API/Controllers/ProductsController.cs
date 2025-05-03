@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    public class ProductsController(IGenericRepostiory<Product> repo) : BaseController
+    public class ProductsController(IGenericRepository<Product> repo) : BaseController
     {
         [HttpGet]
         public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts([FromQuery]ProductSpecParams specParamas)
